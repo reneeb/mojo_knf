@@ -1,0 +1,92 @@
+[Sun Jul 12 18:40:39 2015] [debug] Your secret passphrase needs to be changed
+[Sun Jul 12 18:40:39 2015] [debug] GET "/"
+[Sun Jul 12 18:40:39 2015] [debug] Routing to controller "Streetart::Controller::Guest" and action "welcome"
+[Sun Jul 12 18:40:39 2015] [debug] Rendering template "guest/welcome.html.ep"
+[Sun Jul 12 18:40:39 2015] [debug] 200 OK (0.008824s, 113.327/s)
+[Sun Jul 12 18:40:40 2015] [debug] GET "/https://code.jquery.com/jquery-1.10.2.min.js"
+[Sun Jul 12 18:40:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:40:40 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:40:40 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:40:40 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:40:40 2015] [debug] 404 Not Found (0.036497s, 27.400/s)
+[Sun Jul 12 18:40:40 2015] [debug] GET "/docs-assets/ico/favicon.png"
+[Sun Jul 12 18:40:40 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:40:40 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:40:40 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:40:40 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:40:40 2015] [debug] 404 Not Found (0.006573s, 152.138/s)
+[Sun Jul 12 18:40:59 2015] [debug] GET "/contact"
+[Sun Jul 12 18:40:59 2015] [debug] Routing to controller "Streetart::Controller::Guest" and action "contact"
+[Sun Jul 12 18:40:59 2015] [debug] Rendering template "guest/contact.html.ep"
+[Sun Jul 12 18:40:59 2015] [debug] 200 OK (0.004867s, 205.465/s)
+[Sun Jul 12 18:40:59 2015] [debug] GET "/https://code.jquery.com/jquery-1.10.2.min.js"
+[Sun Jul 12 18:40:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:40:59 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:40:59 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:40:59 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:40:59 2015] [debug] 404 Not Found (0.008268s, 120.948/s)
+[Sun Jul 12 18:41:32 2015] [debug] GET "/img/DSC_0261.JPG"
+[Sun Jul 12 18:41:32 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:41:32 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:41:32 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:41:32 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:41:32 2015] [debug] 404 Not Found (0.011038s, 90.596/s)
+[Sun Jul 12 18:41:37 2015] [debug] GET "/imprint"
+[Sun Jul 12 18:41:37 2015] [debug] Routing to controller "Streetart::Controller::Guest" and action "imprint"
+[Sun Jul 12 18:41:37 2015] [debug] Template "guest/imprint.html.ep" not found
+[Sun Jul 12 18:41:37 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:41:37 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:41:37 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:41:37 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:41:37 2015] [debug] 404 Not Found (0.027623s, 36.202/s)
+[Sun Jul 12 18:41:48 2015] [debug] GET "/show/frankfurt"
+[Sun Jul 12 18:41:48 2015] [debug] Routing to controller "Streetart::Controller::Gallery" and action "show"
+[Sun Jul 12 18:41:48 2015] [debug] Rendering template "gallery/show.html.ep"
+[Sun Jul 12 18:41:48 2015] [debug] 200 OK (0.008801s, 113.623/s)
+[Sun Jul 12 18:41:48 2015] [debug] GET "/show/images/frankfurt/20130420_144456.jpg"
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:41:48 2015] [debug] 404 Not Found (0.011533s, 86.708/s)
+[Sun Jul 12 18:41:48 2015] [debug] GET "/show/images/frankfurt/20130908_131927.jpg"
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:41:48 2015] [debug] 404 Not Found (0.011758s, 85.048/s)
+[Sun Jul 12 18:41:48 2015] [debug] GET "/show/images/frankfurt/20130420_144456.jpg"
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:41:48 2015] [debug] 404 Not Found (0.010644s, 93.950/s)
+[Sun Jul 12 18:41:48 2015] [debug] GET "/images/nav.png"
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:41:48 2015] [debug] 404 Not Found (0.010735s, 93.153/s)
+[Sun Jul 12 18:41:48 2015] [debug] GET "/images/shadow.png"
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:41:48 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:41:48 2015] [debug] 404 Not Found (0.010338s, 96.731/s)
+[Sun Jul 12 18:42:45 2015] [debug] Your secret passphrase needs to be changed
+[Sun Jul 12 18:42:45 2015] [debug] GET "/show/frankfurt"
+[Sun Jul 12 18:42:45 2015] [debug] Routing to controller "Streetart::Controller::Gallery" and action "show"
+[Sun Jul 12 18:42:45 2015] [debug] Rendering template "gallery/show.html.ep"
+[Sun Jul 12 18:42:45 2015] [debug] 200 OK (0.007554s, 132.380/s)
+[Sun Jul 12 18:42:45 2015] [debug] GET "/images/nav.png"
+[Sun Jul 12 18:42:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:42:45 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:42:45 2015] [debug] Rendering inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:42:45 2015] [debug] Rendering inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:42:45 2015] [debug] 404 Not Found (0.036226s, 27.604/s)
+[Sun Jul 12 18:42:45 2015] [debug] GET "/images/shadow.png"
+[Sun Jul 12 18:42:45 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Jul 12 18:42:45 2015] [debug] Template "not_found.html.ep" not found
+[Sun Jul 12 18:42:45 2015] [debug] Rendering cached inline template "fd403ab55a4c875e35b42428816134c7"
+[Sun Jul 12 18:42:45 2015] [debug] Rendering cached inline template "dd85456cf9f44e1e43bebae130a7f9df"
+[Sun Jul 12 18:42:45 2015] [debug] 404 Not Found (0.006551s, 152.648/s)
