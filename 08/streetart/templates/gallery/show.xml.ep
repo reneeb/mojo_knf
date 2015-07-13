@@ -1,0 +1,5 @@
+<root name="<%= ucfirst $city %>">
+  % for my $image ( @{ $images } ) {
+    <file><%= $image %></file>
+  % }
+</root>
