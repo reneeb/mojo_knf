@@ -1,0 +1,21 @@
+URL                        | Methode | Beschreibung
+---------------------------+---------+--------------------------------------------------
+/                          | GET     | Startseite - Carousel mit drei Bildern
+/show/frankfurt            | GET     | Galerie mit Bildern aus Frankfurt
+/show/hannover             | GET     | Galerie mit Bildern aus Hannover
+/show/berlin               | GET     | Galerie mit Bildern aus Berlin
+/contact                   | GET     | Anzeige Kontaktformular
+/contact                   | POST    | Kontaktformular absenden
+/imprint                   | GET     | Impressum anzeigen
+/user/upload               | GET     | Formular um Bilder hochzuladen
+/user/upload               | POST    | Bild hochladen
+/user/comment              | GET     | Formular für Kommentar
+/user/comment              | POST    | Kommentar absenden 
+
+
+Mögliches zusammenfassen:
+/show/frankfurt  --+
+/show/hannover     +-> /show/:city
+/show/berlin     --+
+
+Generischer Platzhalter (:city) damit nicht zu viel von der Route gematcht wird

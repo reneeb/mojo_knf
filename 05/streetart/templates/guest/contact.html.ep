@@ -1,0 +1,34 @@
+% layout 'default';
+
+        <div class="row featurette">
+            <div class="col-md-5">
+                %= include 'bildbox'
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Contact. <span class="text-muted">Get in touch with us.</span></h2>
+                <p class="lead">
+                    <form>
+                        <fieldset class="TableLike">
+                            <label for="name">Name</label>
+                            <div class="Field">
+                                <input type="text" name="name" />
+                            </div>
+                            <div class="Clear"></div>
+
+                            <label for="email">Email</label>
+                            <div class="Field">
+                                <input type="text" name="email" />
+                            </div>
+                            <div class="Clear"></div>
+
+                            <label for="email">Message</label>
+                            <div class="Field">
+                                <textarea></textarea>
+                            </div>
+                            <div class="Clear"></div>
+
+                        </fieldset>
+                    </form>
+                </p>
+            </div>
+        </div>
