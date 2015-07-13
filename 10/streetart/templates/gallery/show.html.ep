@@ -1,0 +1,36 @@
+% layout 'default';
+
+        <div class="row featurette">
+            <div class="col-md-5">
+                %= include 'bildbox';
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Frankfurt. <span class="text-muted">A vibrant city in Hesse.</span></h2>
+                <div class="lead">
+                    <ul id="sb-slider" class="sb-slider">
+                        % for my $image ( @{ $images } ) { 
+                    	<li>
+                    	    <img src="/images/<%= $city %>/<%= $image %>" />
+                    	</li>
+                        % }
+                    	
+                    </ul>
+				<div id="shadow" class="shadow"></div>
+
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+
+				<div id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+                </div>
+            </div>
+        </div>
